@@ -18,7 +18,7 @@
 	border:0;
 }
 body{
-	margin:30px;
+
 	background-color: #00b3;
 	background-image: url();
 }
@@ -91,19 +91,21 @@ header{
 	width: 100%;
 	position: fixed;
 	top:0;
+	left:0;
 	opacity: 0;
 	visibility: hidden;
+	
 }
 
 .modal-content{
 	background-color: white;
-	width: 60%;
-	height: 60%;
-	margin: 30vh auto;
+	width: 90%;
+	height: 90%;
+	margin: 5vh auto;
 	position: relative;
 }
 
-.modal-close{
+.modal-content .modal-close{
 	color:black;
 	position: absolute;
 	right: 8px;
@@ -115,4 +117,5 @@ header{
 	visibility: visible;
 	opacity: 1;
 }
+
 
