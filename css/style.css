@@ -68,7 +68,7 @@ header{
 .card-image img:hover{
 	 filter: brightness(80%); 
 }
-
+/*
 .modal{
 	background-color: rgba(0,0,0,0.7);
 	height: 100%;
@@ -99,3 +99,5 @@ header{
 	visibility: visible;
 	opacity: 1;
 }
+
+*/
