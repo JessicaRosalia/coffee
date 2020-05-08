@@ -1,4 +1,17 @@
-
+@keyframes bounce{
+	0%,20%,¨60%, 100%{
+		-webkit-transform: translateY(0);
+		transform:translateY(0);
+	}
+	40%{
+		-webkit-transform: translateY(-10px);
+		transform:translateY(-10px);
+	}
+	80%{
+		-webkit-transform: translateY(-5px);
+		transform:translateY(-5px);
+	}
+}
 *{
 	margin:0;
 	padding: 0;
@@ -66,8 +79,11 @@ header{
 }
 
 .card-image img:hover{
-	 filter: brightness(80%); 
+	 filter: brightness(80%);
+	 animation: bounce 1s; 
+
 }
+
 /*
 .modal{
 	background-color: rgba(0,0,0,0.7);
