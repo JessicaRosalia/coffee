@@ -85,7 +85,7 @@ header{
 	}
 }
 
-@media(min-width:1080px){
+@media(min-width:880px){
 	.card-content .grid{
 		grid-template-columns: 240px 240px 240px;
 	}
