@@ -67,6 +67,15 @@ header{
 	}
 }
 
+@media(min-width:765px){
+	.menu img{
+		margin-top:-10px;
+		margin-left: -40px;
+		width: 90px;
+		height:90px;
+	}
+}
+
 .menu ul {
 	display: flex;
 	justify-content:center;
