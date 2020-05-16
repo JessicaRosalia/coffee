@@ -71,7 +71,7 @@ header{
 	border-radius:30%;
 }
 
-.card-content{
+.card-content .grid{
 	display: grid;
 	grid-template-columns: 200px; 
 	grid-gap: 20px;
@@ -80,13 +80,13 @@ header{
 }
 
 @media(min-width:490px){
-	.card-content{
+	.card-content .grid{
 		grid-template-columns: 210px 210px;
 	}
 }
 
 @media(min-width:1080px){
-	.card-content{
+	.card-content .grid{
 		grid-template-columns: 240px 240px 240px;
 	}
 }
