@@ -90,7 +90,8 @@ header{
 */
 .content{
 	max-width:900px;
-	margin:0 auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .content-info{
