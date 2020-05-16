@@ -24,6 +24,14 @@ body{
 	background-color: #00b3;
 	font-size: 12px;
 }
+
+@media (min-width:490px){
+	body{
+		font-size: 14px;
+	}
+}
+
+
 header{
 	padding: 54px;
 	background-color: rgba(0,0,0,0.6);
