@@ -76,6 +76,14 @@ header{
 	}
 }
 
+@media(min-width:1024px){
+	.menu img{
+		margin-left: -110px;
+		width: 100px;
+		height:100px;
+	}
+}
+
 .menu ul {
 	display: flex;
 	justify-content:center;
