@@ -37,6 +37,11 @@ body{
 	}
 }
 
+@media (min-width:2000px){
+	body {
+		font-size: 20px;
+	}
+}
 
 header{
 	padding: 54px;
