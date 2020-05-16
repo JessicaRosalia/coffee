@@ -58,8 +58,9 @@ header{
 }
 
 .content-info p{
-	font-size: 20px;
+	font-size: 3.5em;
 	font-weight: bold;
+	margin-bottom: 1em;
 }
 
 .content-info .content-img img{
