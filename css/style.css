@@ -48,8 +48,8 @@ header{
 	transition: 300ms;
 }
 .content{
-	max-width:600px;
-	margin:0px auto;
+	max-width:900px;
+	margin:0 auto;
 }
 
 .content-info{
