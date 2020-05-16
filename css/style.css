@@ -25,19 +25,29 @@ body{
 	font-size: 12px;
 }
 header{
-	text-align: center;
 	padding: 54px;
 	background-color: rgba(0,0,0,0.6);
 	margin-bottom: 64px;
 }
 
-.menu li{
-	margin: 0 60px;
-	display: inline;
-	list-style: none;
-
+.menu ul {
+	display: flex;
+	justify-content: space-evenly;
 }
 
+
+.menu li{
+	list-style: none;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	display: block;
+	padding: 0 25px;
+}
+/*
 .menu li a{
 	color:white;
 	font-size: 3em;
@@ -49,6 +59,7 @@ header{
 	color:pink;
 	transition: 300ms;
 }
+*/
 .content{
 	max-width:900px;
 	margin:0 auto;
