@@ -61,7 +61,7 @@ header{
 }
 .menu ul {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content:center;
 }
 
 
