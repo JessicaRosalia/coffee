@@ -31,6 +31,12 @@ body{
 	}
 }
 
+@media (min-width:880px){
+	body {
+		font-size: 16px;
+	}
+}
+
 
 header{
 	padding: 54px;
