@@ -95,6 +95,7 @@ header{
 	width:100%;
 }
 
+.card-image img:active,
 .card-image img:hover{
 	 filter: brightness(80%);
 	 animation: bounce 1s; 
