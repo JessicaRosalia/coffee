@@ -48,6 +48,12 @@ header{
 	margin-bottom: 64px;
 }
 
+.menu img{
+	margin-top:-15px;
+	margin-right: 40px;
+	width: 60px;
+	height: 60px;
+}
 .menu ul {
 	display: flex;
 	justify-content: space-evenly;
