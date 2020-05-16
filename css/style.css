@@ -62,8 +62,8 @@ header{
 
 .content-info p{
 	font-size: 3.5em;
-	font-weight: bold;
 	margin-bottom: 1em;
+	font-family: 'Concert One', cursive;
 }
 
 .content-info .content-img img{
