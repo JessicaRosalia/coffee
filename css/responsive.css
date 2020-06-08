@@ -21,6 +21,10 @@
     header{
         justify-content: space-evenly;
     }
+    header .menu li{
+        padding: 0 10px;
+    }
+    
 }
 
 @media(min-width:900px){
@@ -33,6 +37,9 @@
         top:-2px;
         width: 130px;
         height: 130px;
+    }
+    header .menu li{
+        padding: 0 13px;
     }
     main{
         margin:70px auto;
