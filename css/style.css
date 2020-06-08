@@ -54,6 +54,7 @@ header{
 	width: 100vw;
 	position: absolute;
 	left:0;
+	top:0;
 	/*position: fixed;
 	top:0;
 	right: 0;
@@ -66,10 +67,6 @@ header{
 	align-items: center;
 }
  
-.menu{
-	padding: 15px;
-	width: 100vw;
-}
 .logo img{
 	height: 80px;
 	width: 80px;
