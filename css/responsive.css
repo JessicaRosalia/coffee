@@ -23,6 +23,22 @@
     }
 }
 
+@media(min-width:900px){
+    header{
+        height: 15vh;
+        justify-content: space-around;
+    }
+    header .logo img{
+        position: absolute;
+        top:-2px;
+        width: 130px;
+        height: 130px;
+    }
+    main{
+        margin:70px auto;
+    }
+}
+
 @media(min-width:490px){
 	.content-info .content-img img{
 		height: 110px;
