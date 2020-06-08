@@ -17,6 +17,12 @@
 	}
 }
 
+@media(min-width:600px){
+    header{
+        justify-content: space-evenly;
+    }
+}
+
 @media(min-width:490px){
 	.content-info .content-img img{
 		height: 110px;
