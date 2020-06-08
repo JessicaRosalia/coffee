@@ -112,19 +112,7 @@ header{
 	display: block;
 	padding: 5px 25px;
 }
-/*
-.menu li a{
-	color:white;
-	font-size: 3em;
-	text-decoration: none;
-	line-height: 30px;
-}
 
-.menu li a:hover{
-	color:pink;
-	transition: 300ms;
-}
-*/
 main{
 	border: 2px solid red;
 	width: 80%;
@@ -180,40 +168,3 @@ main{
 	 animation: bounce 1s; 
 
 }
-
-/*
-.modal{
-	background-color: rgba(0,0,0,0.7);
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	top:0;
-	left:0;
-	opacity: 0;
-	visibility: hidden;
-	
-}
-
-.modal-content{
-	background-color: white;
-	width: 90%;
-	height: 90%;
-	margin: 5vh auto;
-	position: relative;
-}
-
-.modal-content .modal-close{
-	color:black;
-	position: absolute;
-	right: 8px;
-	top:8px;
-	cursor: pointer;
-}
-
-.modal.active{
-	visibility: visible;
-	opacity: 1;
-}
-*/
-
-
