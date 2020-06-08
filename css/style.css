@@ -44,7 +44,6 @@ header{
 	right: 0;
 	left:0; */
 	background-color: rgba(0,0,0,0.6);
-	margin-bottom: 64px;
 	height: 10vh;
 	display: flex;
 	justify-content: space-between;
