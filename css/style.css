@@ -117,6 +117,12 @@ main{
 	border-radius:30%;
 }
 
+@media(max-width:370px){
+	.content-info .content-img img{
+		height: 80px;
+	}
+}
+
 .content-card .grid{
 	display: grid;
 	grid-template-columns: 200px; 
