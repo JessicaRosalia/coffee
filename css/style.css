@@ -52,10 +52,12 @@ body{
 
 header{
 	width: 100vw;
-	position: fixed;
+	position: absolute;
+	left:0;
+	/*position: fixed;
 	top:0;
 	right: 0;
-	left:0;
+	left:0; */
 	background-color: rgba(0,0,0,0.6);
 	margin-bottom: 64px;
 	height: 10vh;
