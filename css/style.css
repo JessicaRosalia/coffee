@@ -110,15 +110,22 @@ main{
 }
 
 .content-info .content-img img{
-	height: 130px;
+	height: 90px;
 	border-radius:30%;
 }
 
-@media(max-width:370px){
+@media(min-width:490px){
 	.content-info .content-img img{
-		height: 90px;
+		height: 110px;
 	}
 }
+
+@media(min-width:765px){
+	.content-info .content-img img{
+		height: 140px;
+	}
+}
+
 .content-card .grid{
 	display: grid;
 	grid-template-columns: 200px; 
