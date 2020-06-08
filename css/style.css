@@ -136,7 +136,7 @@ header{
 	border-radius:30%;
 }
 
-.card-content .grid{
+.content-card .grid{
 	display: grid;
 	grid-template-columns: 200px; 
 	grid-gap: 20px;
@@ -146,13 +146,13 @@ header{
 }
 
 @media(min-width:490px){
-	.card-content .grid{
+	.content-card .grid{
 		grid-template-columns: 210px 210px;
 	}
 }
 
 @media(min-width:880px){
-	.card-content .grid{
+	.content-card .grid{
 		grid-template-columns: 240px 240px 240px;
 	}
 }
