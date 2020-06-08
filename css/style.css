@@ -105,7 +105,7 @@ main{
 }
 
 .content-info p{
-	font-size: 3.5em;
+	font-size: clamp(1.3em,5vw,2.5em);
 	margin-bottom: 1em;
 	font-family: 'Concert One', cursive;
 }
