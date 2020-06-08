@@ -44,6 +44,7 @@ body{
 }
 
 .content{
+	border:2px solid green;
 	width: 80%;
 	max-width: 960px;
 	margin: 0 auto;
@@ -120,6 +121,7 @@ header{
 }
 */
 main{
+	border: 2px solid red;
 	width: 80%;
 	max-width:900px;
 	margin:0 auto;
