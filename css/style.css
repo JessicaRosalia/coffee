@@ -45,28 +45,47 @@ header{
 	left:0; */
 	background-color: rgba(0,0,0,0.6);
 	height: 10vh;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	
 	padding: 0 1rem;
 }
- 
-.logo img{
-	height: 80px;
-	width: 80px;
+
+header menu{
+	display:none;
+}
+header menu .menu-mobile{
+	margin-left:10px;
 }
 
-.menu ul {
+header menu .menu-mobile div{
+	width:20px;
+	height:2px;
+	background-color: #fff;
+	margin: 3px 0;
+}
+
+header nav.menu-desktop{
 	display: flex;
-	justify-content:center;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 
-.menu li{
+.logo img{
+	height: 60px;
+	width: 60px;
+}
+
+.menu-desktop ul {
+	display: flex;
+	
+}
+
+
+.menu-desktop li{
 	list-style: none;
 }
 
-.menu a{
+.menu-desktop a{
 	color: white;
 	text-decoration: none;
 	font-size: 1.2em;

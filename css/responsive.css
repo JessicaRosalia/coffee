@@ -21,7 +21,7 @@
 }
 
 @media(min-width:600px){
-    header{
+    header nav.menu-desktop{
         justify-content: space-evenly;
     }
     header .menu li{
@@ -31,16 +31,19 @@
 }
 
 @media(min-width:900px){
-    header{
+    header {
         height: 15vh;
+    }
+    header nav.menu-desktop{
+        align-items: center;
         justify-content: space-around;
     }
+    
     header .logo img{
-        position: absolute;
-        top:-2px;
-        width: 130px;
-        height: 130px;
+        width: 100px;
+        height: 100px;
     }
+    
     header .menu li{
         padding: 0 13px;
     }
@@ -63,4 +66,16 @@
 	.content-card .grid{
 		grid-template-columns: 240px 240px 240px;
 	}
+}
+
+@media only screen and (max-width:345px){
+    header menu{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header nav.menu-desktop{
+        display:none;
+    }
 }
