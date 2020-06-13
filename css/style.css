@@ -53,6 +53,7 @@ header menu{
 	display:none;
 }
 header menu .menu-mobile{
+	cursor: pointer;
 	margin-left:10px;
 }
 
