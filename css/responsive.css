@@ -8,6 +8,9 @@
 @media (min-width:765px){
 	body {
 		font-size: 18px;
+    }
+    .content-info .content-img img{
+		height: 140px;
 	}
 }
 
@@ -52,12 +55,6 @@
     }
     .content-card .grid{
 		grid-template-columns: 210px 210px;
-	}
-}
-
-@media(min-width:765px){
-	.content-info .content-img img{
-		height: 140px;
 	}
 }
 
